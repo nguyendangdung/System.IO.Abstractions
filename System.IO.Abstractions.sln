@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingHelpers", "TestingHe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHelpers.Tests", "TestHelpers.Tests\TestHelpers.Tests.csproj", "{20B02738-952A-40F5-9C10-E2F83013E9FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingHelpers.Fix", "TestingHelpers.Fix\TestingHelpers.Fix.csproj", "{E1A5A1AF-5641-4B0D-B7ED-8D57F6CCBBAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingHelpers.Fix.Tests", "TestingHelpers.Fix.Tests\TestingHelpers.Fix.Tests.csproj", "{532A0383-0B3C-4E33-B381-81562566B228}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{20B02738-952A-40F5-9C10-E2F83013E9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20B02738-952A-40F5-9C10-E2F83013E9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20B02738-952A-40F5-9C10-E2F83013E9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A5A1AF-5641-4B0D-B7ED-8D57F6CCBBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A5A1AF-5641-4B0D-B7ED-8D57F6CCBBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A5A1AF-5641-4B0D-B7ED-8D57F6CCBBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A5A1AF-5641-4B0D-B7ED-8D57F6CCBBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532A0383-0B3C-4E33-B381-81562566B228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532A0383-0B3C-4E33-B381-81562566B228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532A0383-0B3C-4E33-B381-81562566B228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532A0383-0B3C-4E33-B381-81562566B228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

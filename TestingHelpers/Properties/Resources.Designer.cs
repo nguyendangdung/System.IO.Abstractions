@@ -22,7 +22,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("System.IO.Abstractions.TestingHelpers.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Access to the path &apos;{0}&apos; is denied..
         /// </summary>
-        internal static string ACCESS_TO_THE_PATH_IS_DENIED {
+        public static string ACCESS_TO_THE_PATH_IS_DENIED {
             get {
                 return ResourceManager.GetString("ACCESS_TO_THE_PATH_IS_DENIED", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Could not find a part of the path &apos;{0}&apos;..
         /// </summary>
-        internal static string COULD_NOT_FIND_PART_OF_PATH_EXCEPTION {
+        public static string COULD_NOT_FIND_PART_OF_PATH_EXCEPTION {
             get {
                 return ResourceManager.GetString("COULD_NOT_FIND_PART_OF_PATH_EXCEPTION", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to File name cannot be null..
         /// </summary>
-        internal static string FILENAME_CANNOT_BE_NULL {
+        public static string FILENAME_CANNOT_BE_NULL {
             get {
                 return ResourceManager.GetString("FILENAME_CANNOT_BE_NULL", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Illegal characters in path..
         /// </summary>
-        internal static string ILLEGAL_CHARACTERS_IN_PATH_EXCEPTION {
+        public static string ILLEGAL_CHARACTERS_IN_PATH_EXCEPTION {
             get {
                 return ResourceManager.GetString("ILLEGAL_CHARACTERS_IN_PATH_EXCEPTION", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to This test helper hasn&apos;t been implemented yet. They are implemented on an as-needed basis. As it seems like you need it, now would be a great time to send us a pull request over at https://github.com/tathamoddie/System.IO.Abstractions. You know, because it&apos;s open source and all..
         /// </summary>
-        internal static string NOT_IMPLEMENTED_EXCEPTION {
+        public static string NOT_IMPLEMENTED_EXCEPTION {
             get {
                 return ResourceManager.GetString("NOT_IMPLEMENTED_EXCEPTION", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Path cannot be the empty string or all whitespace..
         /// </summary>
-        internal static string PATH_CANNOT_BE_THE_EMPTY_STRING_OR_ALL_WHITESPACE {
+        public static string PATH_CANNOT_BE_THE_EMPTY_STRING_OR_ALL_WHITESPACE {
             get {
                 return ResourceManager.GetString("PATH_CANNOT_BE_THE_EMPTY_STRING_OR_ALL_WHITESPACE", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The path is not of a legal form..
         /// </summary>
-        internal static string THE_PATH_IS_NOT_OF_A_LEGAL_FORM {
+        public static string THE_PATH_IS_NOT_OF_A_LEGAL_FORM {
             get {
                 return ResourceManager.GetString("THE_PATH_IS_NOT_OF_A_LEGAL_FORM", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace System.IO.Abstractions.TestingHelpers.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Value cannot be null..
         /// </summary>
-        internal static string VALUE_CANNOT_BE_NULL {
+        public static string VALUE_CANNOT_BE_NULL {
             get {
                 return ResourceManager.GetString("VALUE_CANNOT_BE_NULL", resourceCulture);
             }

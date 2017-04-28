@@ -9,9 +9,9 @@ namespace System.IO.Abstractions.TestingHelpers
     [Serializable]
     public class MockFileSystem : IFileSystem, IMockFileDataAccessor
     {
-        private readonly IDictionary<string, MockFileData> files;
+        protected readonly IDictionary<string, MockFileData> files;
         private readonly FileBase file;
-        private readonly DirectoryBase directory;
+        protected readonly DirectoryBase directory;
         private readonly IFileInfoFactory fileInfoFactory;
         private readonly PathBase pathField;
         private readonly IDirectoryInfoFactory directoryInfoFactory;
@@ -81,7 +81,7 @@ namespace System.IO.Abstractions.TestingHelpers
             get { return pathVerifier; }
         }
 
-        private string FixPath(string path)
+        protected string FixPath(string path)
         {
             var pathSeparatorFixed = path.Replace(Path.AltDirectorySeparatorChar, Path.DirectorySeparatorChar);
             return pathField.GetFullPath(pathSeparatorFixed);
@@ -94,7 +94,7 @@ namespace System.IO.Abstractions.TestingHelpers
             return GetFileWithoutFixingPath(path);
         }
 
-        public void AddFile(string path, MockFileData mockFile)
+        public virtual void AddFile(string path, MockFileData mockFile)
         {
             var fixedPath = FixPath(path);
             lock (files)
@@ -121,7 +121,7 @@ namespace System.IO.Abstractions.TestingHelpers
             }
         }
 
-        public void AddDirectory(string path)
+        public virtual void AddDirectory(string path)
         {
             var fixedPath = FixPath(path);
             var separator = XFS.Separator();
